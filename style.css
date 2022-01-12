@@ -1,0 +1,121 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-size: 1em;
+  width: 100%;
+  background-image: url(imagens/bg.png);
+}
+#conteiner {
+  width: 98%;
+  margin: 0px auto;
+  padding: 0px auto;
+  min-width: 900px;
+}
+#topo {
+  width: 85%;
+  height: 255px;
+  margin: 0% auto;
+  background-image: url(imagens/topo-imagem-principal.png);
+}
+#imagen-principal {
+  width: 100%;
+  height: 255px;
+  border: 0px red solid;
+}
+#area-lateral {
+  border: 0px red solid;
+  width: 50%;
+  height: 255px;
+  float: right;
+  background-image: url(imagens/topo-imagem-lateral.png);
+}
+#menu {
+  padding-left: 10%;
+  text-decoration: none;
+  color: #4d451a;
+  min-width: 500px;
+}
+#reservar {
+  text-align: center;
+  color: #837b4a;
+}
+#depoimentos {
+  float: right;
+  height: 130px;
+  margin-right: 25%;
+}
+#conteudo1 {
+  width: 100%;
+  height: 1050px;
+  border: red solid 0px;
+  background: url(imagens/bg-container.png);
+}
+#postagem1 {
+  width: 60%;
+  border: 0px red solid;
+  height: 600px;
+}
+li {
+  padding-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1em;
+  list-style-type: none;
+}
+li > a {
+  text-decoration: none;
+  color: #4d451a;
+}
+li > a:hover {
+  text-decoration: none;
+  color: #4d451a;
+  font-size: 1.3em;
+}
+.clear {
+  clear: both;
+}
+#postagemLateral {
+  float: right;
+  border: 0px red solid;
+  width: 35%;
+  height: 1050px;
+}
+li > img {
+  width: 90%;
+}
+ul ~ h3 {
+  float: right;
+}
+.imagens {
+  float: right;
+}
+#botao {
+  background-color: #4d451a;
+  color: #837b4a;
+}
+#botao:hover {
+  background-color: #463b26;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: #4d451a;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+#rodape {
+  background-image: url(imagens/bg-rodape.png);
+  width: 100%;
+  height: 200px;
+  border: red solid 1px;
+}
+#corpologo{text-align: center;}
+.logos {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px ;
+}
+.logos:hover{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px ;
+}
+#textoRodape{text-align: center;}
